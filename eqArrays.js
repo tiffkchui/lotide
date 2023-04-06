@@ -1,11 +1,16 @@
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    return `✅✅✅ Assertion Passed: ${actual}  ===  ${expected}`;
+const middle = function(array) {
+  if (array.length <= 2) {
+    return [];
+  } else if (array.length % 2 === 0) {
+    return array.slice(array.length / 2 - 1, array.length / 2 + 1)
   } else {
-    return `🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`;
+     let newArray = [];
+     let middleNum = Math.round(array.length /2)
+     newArray.push(array[middleNum -1]);
+     return newArray;
   }
-    
 };
+
 
 
 const eqArrays = function(array1, array2) {
@@ -22,6 +27,15 @@ const eqArrays = function(array1, array2) {
   return true;
 }
   
+};
+
+const assertEqual = function(actual, expected) {
+  if (actual === expected) {
+    return `✅✅✅ Assertion Passed: ${actual}  ===  ${expected}`;
+  } else {
+    return `🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`;
+  }
+    
 };
 
 
