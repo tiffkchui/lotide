@@ -1,0 +1,28 @@
+{
+  "name": "lotide",
+  "version": "1.0.0",
+  "description": "for testing purposes only",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiffkchui/Lotide.git"
+  },
+  "keywords": [
+    "lotide",
+    "lodash",
+    "clone",
+    "test"
+  ],
+  "author": "Tiffany Chui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiffkchui/Lotide/issues"
+  },
+  "homepage": "https://github.com/tiffkchui/Lotide#readme"
+}
