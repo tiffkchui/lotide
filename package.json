@@ -1,5 +1,5 @@
 {
-  "name": "lotide",
+  "name": "@kwchui/lotide",
   "version": "1.0.0",
   "description": "for testing purposes only",
   "main": "assertArraysEqual.js",
